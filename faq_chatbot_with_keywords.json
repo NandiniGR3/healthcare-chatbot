@@ -1,0 +1,615 @@
+{
+  "fever": {
+    "keywords": [
+      "fever",
+      "high temperature",
+      "body heat",
+      "feverish",
+      "viral fever"
+    ],
+    "responses": [
+      "Fever is a rise in body temperature, usually indicating that the body is fighting an infection such as viral fever, flu, dengue, malaria, or bacterial infections. It can also occur due to dehydration or inflammation. Commonly used medicines to reduce fever and body pain include Paracetamol (Crocin, Calpol) and Ibuprofen, which help lower temperature and relieve aches.",
+      "Rest is very important during fever. Drink plenty of fluids such as water, ORS, soups, coconut water, and herbal teas to prevent dehydration. Eat light, easily digestible food and use lukewarm sponging if the temperature is high.",
+      "Consult a doctor if fever lasts more than 3 days, is repeatedly high (above 102°F), or is associated with rashes, persistent vomiting, breathing difficulty, severe headache, or confusion."
+    ]
+  },
+  "cold": {
+    "keywords": [
+      "cold",
+      "cough",
+      "runny nose",
+      "sneezing",
+      "common cold"
+    ],
+    "responses": [
+      "Cold and cough are commonly caused by viral infections, allergies, pollution, or sudden weather changes. Symptoms may include sneezing, runny nose, sore throat, and chest discomfort. Medicines such as antihistamines (Cetirizine), cough syrups (Benadryl, Ascoril, Honitus), and paracetamol can help relieve symptoms.",
+      "Drink warm fluids frequently, such as ginger tea, turmeric milk, or warm water. Steam inhalation helps clear nasal passages, and warm saltwater gargles soothe the throat. Adequate rest supports faster recovery.",
+      "See a doctor if cold lasts more than 7–10 days, worsens over time, or is associated with high fever, chest pain, wheezing, or blood in sputum."
+    ]
+  },
+  "diarrhea": {
+    "keywords": [
+      "diarrhea",
+      "loose motion",
+      "watery stools",
+      "stomach infection"
+    ],
+    "responses": [
+      "Diarrhea is characterized by frequent loose or watery stools, commonly caused by infections, contaminated food or water, food intolerance, or stress. It may lead to dehydration if not managed properly. ORS, probiotics, and in some cases medicines like Loperamide are used for symptom relief.",
+      "Drink plenty of fluids such as ORS, water, coconut water, and clear soups. Eat light foods like rice, banana, curd, and toast. Avoid oily, spicy, or street food until recovery.",
+      "Consult a doctor if diarrhea lasts more than 2 days, contains blood or mucus, causes severe weakness, or occurs in infants, elderly people, or pregnant women."
+    ]
+  },
+  "constipation": {
+    "keywords": [
+      "constipation",
+      "hard stools",
+      "irregular bowel",
+      "difficulty passing stool"
+    ],
+    "responses": [
+      "Constipation refers to infrequent or hard bowel movements, often caused by low fiber intake, inadequate water consumption, lack of physical activity, or irregular eating habits. Mild laxatives, stool softeners, or fiber supplements may help relieve symptoms.",
+      "Increase dietary fiber by eating fruits, vegetables, whole grains, and legumes. Drink enough water daily and maintain regular physical activity like walking or yoga to improve bowel movement.",
+      "See a doctor if constipation is long-lasting, painful, or associated with abdominal pain, vomiting, blood in stools, or unexplained weight loss."
+    ]
+  },
+  "vomiting": {
+    "keywords": [
+      "vomiting",
+      "nausea",
+      "throwing up",
+      "emesis"
+    ],
+    "responses": [
+      "Vomiting is the forceful expulsion of stomach contents and may occur due to food poisoning, infections, acidity, motion sickness, or stress. Medicines like Ondansetron or Domperidone are often prescribed to control nausea and vomiting.",
+      "Take small sips of water or ORS frequently to avoid dehydration. Avoid solid food initially and slowly reintroduce light foods. Ginger tea or peppermint may help calm the stomach.",
+      "Consult a doctor if vomiting is persistent, severe, contains blood, or leads to dehydration, dizziness, or reduced urination."
+    ]
+  },
+  "acidity": {
+    "keywords": [
+      "acidity",
+      "acid reflux",
+      "heartburn",
+      "gastric problem"
+    ],
+    "responses": [
+      "Acidity occurs when excess stomach acid causes burning sensation in the chest or throat, often due to spicy food, stress, irregular meals, or lying down after eating. Common medicines include antacids, Omeprazole, Pantoprazole, and Famotidine.",
+      "Eat small, frequent meals and avoid spicy, oily, or acidic foods. Do not lie down immediately after meals and elevate your head while sleeping. Reducing caffeine and alcohol helps prevent acidity.",
+      "See a doctor if acidity is frequent, severe, causes difficulty swallowing, unexplained weight loss, or chest pain that mimics heart symptoms."
+    ]
+  },
+  "back_pain": {
+    "keywords": [
+      "back pain",
+      "lower back pain",
+      "spine pain",
+      "backache"
+    ],
+    "responses": [
+      "Back pain is commonly caused by muscle strain, poor posture, prolonged sitting, heavy lifting, or lack of exercise. Pain relievers like Paracetamol, anti-inflammatory medicines, or muscle relaxants are often used for short-term relief.",
+      "Apply warm compresses to relax muscles, practice gentle stretching exercises, and maintain proper posture while sitting or working. Regular movement and avoiding long sitting hours are beneficial.",
+      "Consult a doctor if back pain is severe, persistent, radiates to legs, or is associated with numbness, weakness, or bladder problems."
+    ]
+  },
+  "joint_pain": {
+    "keywords": [
+      "joint pain",
+      "knee pain",
+      "arthritis",
+      "joint ache"
+    ],
+    "responses": [
+      "Joint pain may occur due to arthritis, injury, inflammation, overuse, or aging. It may cause stiffness, swelling, and reduced movement. Pain relievers and anti-inflammatory medicines are commonly used.",
+      "Rest the affected joint, apply warm or cold compresses, and do gentle exercises to maintain flexibility. Maintaining a healthy weight reduces joint stress.",
+      "Seek medical advice if joint pain persists, worsens, becomes swollen, or limits daily activities."
+    ]
+  },
+  "toothache": {
+    "keywords": [
+      "toothache",
+      "dental pain",
+      "tooth pain"
+    ],
+    "responses": [
+      "Toothache is usually caused by dental cavities, infections, gum disease, or tooth sensitivity. Pain relievers like Paracetamol can temporarily reduce pain, but they do not treat the cause.",
+      "Rinse the mouth with warm salt water, maintain oral hygiene, and avoid very hot, cold, or sugary foods until dental evaluation.",
+      "Consult a dentist promptly if tooth pain persists, swelling occurs, or there is pus or fever."
+    ]
+  },
+  "ear_pain": {
+    "keywords": [
+      "ear pain",
+      "earache",
+      "ear infection"
+    ],
+    "responses": [
+      "Ear pain may result from ear infections, wax buildup, sinus issues, or pressure changes. It can be sharp or dull and may affect hearing. Pain relievers and doctor-recommended ear drops may help.",
+      "Apply a warm compress to the affected ear and keep the ear dry. Avoid inserting cotton buds or objects into the ear canal.",
+      "See a doctor if ear pain is severe, persistent, or accompanied by discharge, fever, or hearing loss."
+    ]
+  },
+  "skin_rash": {
+    "keywords": [
+      "skin rash",
+      "itching",
+      "red rash",
+      "skin allergy"
+    ],
+    "responses": [
+      "Skin rashes can occur due to allergies, infections, heat, insect bites, or contact with irritants. They may cause redness, itching, or swelling. Antihistamines and soothing creams help reduce discomfort.",
+      "Keep the affected area clean and dry, avoid scratching, and use mild soaps or moisturizers. Wearing loose clothing helps prevent irritation.",
+      "Consult a doctor if the rash spreads rapidly, becomes painful, produces pus, or is associated with fever."
+    ]
+  },
+  "allergy": {
+    "keywords": [
+      "allergy",
+      "allergic reaction",
+      "itching",
+      "sneezing"
+    ],
+    "responses": [
+      "Allergies occur when the immune system reacts to substances like dust, pollen, food, or pet dander. Symptoms may include sneezing, itching, rashes, watery eyes, or breathing difficulty. Antihistamines help control symptoms.",
+      "Avoid known allergens, keep surroundings clean, and maintain good ventilation. Washing hands and face after exposure reduces symptoms.",
+      "Seek immediate medical care if allergy causes swelling of lips or face, severe breathing difficulty, or dizziness."
+    ]
+  },
+  "asthma": {
+    "keywords": [
+      "asthma",
+      "breathing problem",
+      "wheezing",
+      "shortness of breath"
+    ],
+    "responses": [
+      "Asthma is a chronic condition that causes airway narrowing and breathing difficulty, often triggered by dust, smoke, cold air, or exercise. Inhalers like Salbutamol provide quick relief during attacks.",
+      "Avoid known triggers, use inhalers as prescribed, and practice breathing exercises. Maintaining overall fitness helps improve lung function.",
+      "Get emergency medical help if breathing becomes severe, lips turn bluish, or the inhaler does not provide relief."
+    ]
+  },
+  "urinary_infection": {
+    "keywords": [
+      "uti",
+      "urinary infection",
+      "burning urination",
+      "urine infection"
+    ],
+    "responses": [
+      "Urinary tract infections (UTI) cause burning urination, frequent urge to urinate, lower abdominal pain, and sometimes fever. Antibiotics are usually required for proper treatment.",
+      "Drink plenty of water to flush bacteria and maintain proper personal hygiene. Avoid holding urine for long periods.",
+      "Consult a doctor promptly for diagnosis and treatment to prevent complications."
+    ]
+  },
+  "menstrual_cramps": {
+    "keywords": [
+      "menstrual cramps",
+      "period pain",
+      "dysmenorrhea"
+    ],
+    "responses": [
+      "Menstrual cramps are caused by uterine contractions during periods, leading to lower abdominal or back pain. Pain relievers like Ibuprofen and antispasmodics are commonly used.",
+      "Apply heat to the lower abdomen, rest, and practice gentle stretching or yoga. Staying hydrated may reduce discomfort.",
+      "Consult a doctor if cramps are severe, irregular, or interfere significantly with daily activities."
+    ]
+  },
+  "insomnia": {
+    "keywords": [
+      "insomnia",
+      "sleep problem",
+      "unable to sleep",
+      "sleeplessness"
+    ],
+    "responses": [
+      "Insomnia refers to difficulty falling asleep or staying asleep, often due to stress, anxiety, irregular routines, or excessive screen use. Short-term sleep aids may sometimes be prescribed.",
+      "Maintain a regular sleep schedule, avoid caffeine at night, reduce screen time before bed, and create a calm sleeping environment.",
+      "See a doctor if insomnia persists for weeks or affects daily functioning."
+    ]
+  },
+  "anxiety": {
+    "keywords": [
+      "anxiety",
+      "stress",
+      "nervousness",
+      "panic"
+    ],
+    "responses": [
+      "Anxiety involves excessive worry, fear, or nervousness that may cause restlessness, fast heartbeat, or sleep problems. Mild anxiety can often be managed without medication.",
+      "Practice deep breathing, meditation, regular exercise, and stress-management techniques. Adequate sleep and balanced diet help regulate mood.",
+      "Consult a mental health professional if anxiety becomes severe or interferes with daily life."
+    ]
+  },
+  "dehydration": {
+    "keywords": [
+      "dehydration",
+      "lack of fluids",
+      "dry mouth"
+    ],
+    "responses": [
+      "Dehydration occurs when the body loses more fluids than it takes in, often due to diarrhea, vomiting, fever, or excessive sweating. Symptoms include dry mouth, weakness, and dizziness.",
+      "Drink water frequently and use ORS to replace lost electrolytes. Avoid excessive heat and alcohol.",
+      "Seek medical care if dehydration is severe, especially in children or elderly individuals."
+    ]
+  },
+  "food_poisoning": {
+    "keywords": [
+      "food poisoning",
+      "stomach infection",
+      "contaminated food"
+    ],
+    "responses": [
+      "Food poisoning results from consuming contaminated food or water, causing nausea, vomiting, abdominal pain, and diarrhea. Rest and fluid replacement are essential.",
+      "Avoid solid food initially and sip ORS or water regularly. Gradually introduce light foods as symptoms improve.",
+      "Consult a doctor if symptoms are severe, prolonged, or include blood in stool or high fever."
+    ]
+  },
+  "sinusitis": {
+    "keywords": [
+      "sinusitis",
+      "sinus infection",
+      "facial pain"
+    ],
+    "responses": [
+      "Sinusitis is inflammation of the sinuses, causing facial pain, nasal congestion, headache, and thick nasal discharge. Decongestants and pain relievers help reduce symptoms.",
+      "Steam inhalation, warm compresses, and staying hydrated help loosen mucus and reduce pressure.",
+      "See a doctor if symptoms last more than 10 days or worsen with fever."
+    ]
+  },
+  "muscle_cramps": {
+    "keywords": [
+      "muscle cramps",
+      "leg cramps",
+      "muscle spasm"
+    ],
+    "responses": [
+      "Muscle cramps are sudden, painful muscle contractions often caused by dehydration, electrolyte imbalance, or overuse. They usually affect legs or feet.",
+      "Gently stretch the muscle, massage the area, and drink fluids to restore balance.",
+      "Consult a doctor if cramps are frequent, severe, or unexplained."
+    ]
+  },
+  "fatigue": {
+    "keywords": [
+      "fatigue",
+      "tiredness",
+      "low energy"
+    ],
+    "responses": [
+      "Fatigue is persistent tiredness that may result from stress, poor sleep, illness, or nutritional deficiencies. It affects physical and mental performance.",
+      "Get adequate rest, maintain a balanced diet, stay hydrated, and include light physical activity in daily routine.",
+      "Seek medical advice if fatigue is long-lasting or worsening without clear reason."
+    ]
+  },
+  "dizziness": {
+    "keywords": [
+      "dizziness",
+      "lightheadedness",
+      "giddiness"
+    ],
+    "responses": [
+      "Dizziness may feel like lightheadedness or imbalance and can be caused by dehydration, low blood pressure, or inner ear problems.",
+      "Sit or lie down immediately, drink water, and avoid sudden movements.",
+      "Consult a doctor if dizziness is frequent, severe, or leads to fainting."
+    ]
+  },
+  "high_blood_pressure": {
+    "keywords": [
+      "high bp",
+      "hypertension",
+      "blood pressure"
+    ],
+    "responses": [
+      "High blood pressure (hypertension) is a condition where the force of blood against artery walls remains consistently high, increasing the risk of heart disease, stroke, and kidney problems. It often has no obvious symptoms and is commonly managed with lifestyle changes and medicines such as Amlodipine, Losartan, or Telmisartan.",
+      "Maintain a low-salt diet, exercise regularly, manage stress, avoid smoking and excessive alcohol, and monitor blood pressure at home if advised.",
+      "Consult a doctor regularly for monitoring and medication adjustment, especially if readings are consistently high or symptoms like headache or dizziness occur."
+    ]
+  },
+  "low_blood_pressure": {
+    "keywords": [
+      "low bp",
+      "hypotension",
+      "low blood pressure"
+    ],
+    "responses": [
+      "Low blood pressure (hypotension) occurs when blood pressure drops too low, leading to dizziness, fainting, or fatigue. Causes include dehydration, prolonged standing, or certain medications.",
+      "Drink enough fluids, stand up slowly, and eat small, frequent meals. Wearing compression stockings may help some people.",
+      "See a doctor if low blood pressure causes frequent fainting or interferes with daily activities."
+    ]
+  },
+  "diabetes": {
+    "keywords": [
+      "diabetes",
+      "high sugar",
+      "blood sugar"
+    ],
+    "responses": [
+      "Diabetes is a chronic condition where blood sugar levels remain high due to insufficient insulin or insulin resistance. Symptoms may include increased thirst, frequent urination, fatigue, and blurred vision. Management includes diet control, exercise, and medicines such as Metformin or insulin.",
+      "Follow a balanced, low-sugar diet, monitor blood glucose regularly, exercise consistently, and maintain a healthy weight.",
+      "Consult a doctor for regular checkups and if symptoms worsen or blood sugar remains uncontrolled."
+    ]
+  },
+  "hypoglycemia": {
+    "keywords": [
+      "hypoglycemia",
+      "low sugar",
+      "low blood sugar"
+    ],
+    "responses": [
+      "Hypoglycemia refers to low blood sugar levels, commonly occurring in people with diabetes due to missed meals or excess medication. Symptoms include sweating, shakiness, confusion, and weakness.",
+      "Consume quick sources of sugar such as glucose tablets, fruit juice, or candy, followed by a balanced meal.",
+      "Seek medical help if symptoms are severe, frequent, or cause loss of consciousness."
+    ]
+  },
+  "anemia": {
+    "keywords": [
+      "anemia",
+      "low hemoglobin",
+      "weakness"
+    ],
+    "responses": [
+      "Anemia occurs when there is a reduced number of red blood cells or hemoglobin, leading to fatigue, weakness, and shortness of breath. Common causes include iron deficiency, vitamin deficiencies, or chronic illness.",
+      "Eat iron-rich foods like green leafy vegetables, dates, legumes, and meat, along with vitamin C to improve absorption.",
+      "Consult a doctor for blood tests and proper treatment if anemia symptoms persist."
+    ]
+  },
+  "thyroid_disorder": {
+    "keywords": [
+      "thyroid",
+      "hypothyroid",
+      "hyperthyroid"
+    ],
+    "responses": [
+      "Thyroid disorders involve abnormal hormone production, leading to symptoms such as weight changes, fatigue, hair loss, or mood disturbances. Both hypothyroidism and hyperthyroidism require medical management.",
+      "Take prescribed medications regularly and follow a healthy lifestyle. Avoid self-adjusting thyroid medicines.",
+      "Regular blood tests and doctor consultations are necessary for monitoring thyroid levels."
+    ]
+  },
+  "obesity": {
+    "keywords": [
+      "obesity",
+      "overweight",
+      "weight gain"
+    ],
+    "responses": [
+      "Obesity is excess body weight that increases the risk of diabetes, heart disease, and joint problems. It results from imbalance between calorie intake and physical activity.",
+      "Adopt a balanced diet, reduce junk food, exercise regularly, and maintain consistent healthy habits.",
+      "Consult a healthcare professional for guided weight management if obesity affects health."
+    ]
+  },
+  "weight_loss": {
+    "keywords": [
+      "weight loss",
+      "unintentional weight loss"
+    ],
+    "responses": [
+      "Unintentional weight loss may result from poor nutrition, stress, digestive issues, or underlying medical conditions.",
+      "Eat nutrient-dense meals, maintain regular eating schedules, and manage stress.",
+      "Seek medical evaluation if weight loss is rapid or unexplained."
+    ]
+  },
+  "weight_gain": {
+    "keywords": [
+      "weight gain",
+      "increased weight"
+    ],
+    "responses": [
+      "Weight gain can occur due to overeating, hormonal imbalance, reduced physical activity, or certain medications.",
+      "Maintain portion control, stay active, and follow a balanced diet.",
+      "Consult a doctor if weight gain is sudden or associated with swelling or fatigue."
+    ]
+  },
+  "hair_fall": {
+    "keywords": [
+      "hair fall",
+      "hair loss",
+      "alopecia"
+    ],
+    "responses": [
+      "Hair fall can result from stress, nutritional deficiency, hormonal changes, or scalp conditions. Temporary hair shedding is common but excessive loss needs attention.",
+      "Maintain a protein-rich diet, reduce stress, and use mild hair care products.",
+      "Consult a doctor or dermatologist if hair loss is excessive or persistent."
+    ]
+  },
+  "dandruff": {
+    "keywords": [
+      "dandruff",
+      "flaky scalp"
+    ],
+    "responses": [
+      "Dandruff is a scalp condition causing flaking and itching, often due to dry skin or fungal growth.",
+      "Use anti-dandruff shampoo regularly and keep the scalp clean.",
+      "See a doctor if dandruff is severe or does not improve with treatment."
+    ]
+  },
+  "acne": {
+    "keywords": [
+      "acne",
+      "pimples",
+      "zits"
+    ],
+    "responses": [
+      "Acne is a skin condition caused by blocked pores, excess oil, and bacteria, commonly affecting the face, chest, and back.",
+      "Keep skin clean, avoid touching pimples, and use non-comedogenic products.",
+      "Consult a dermatologist if acne is severe or leaves scars."
+    ]
+  },
+  "eczema": {
+    "keywords": [
+      "eczema",
+      "skin inflammation",
+      "itchy skin"
+    ],
+    "responses": [
+      "Eczema is a chronic skin condition causing dry, itchy, and inflamed skin, often triggered by allergens or irritants.",
+      "Moisturize regularly, avoid harsh soaps, and identify triggers.",
+      "Consult a doctor if eczema worsens or becomes infected."
+    ]
+  },
+  "psoriasis": {
+    "keywords": [
+      "psoriasis",
+      "scaly skin"
+    ],
+    "responses": [
+      "Psoriasis is an autoimmune skin condition causing thick, scaly patches on the skin, often recurring over time.",
+      "Keep skin moisturized and avoid known triggers like stress.",
+      "Seek medical advice for long-term management and treatment options."
+    ]
+  },
+  "indigestion": {
+    "keywords": [
+      "indigestion",
+      "upset stomach"
+    ],
+    "responses": [
+      "Indigestion causes discomfort or fullness in the upper abdomen, often due to overeating or spicy food.",
+      "Eat slowly, avoid heavy meals, and reduce spicy foods.",
+      "Consult a doctor if indigestion is frequent or severe."
+    ]
+  },
+  "gas_bloating": {
+    "keywords": [
+      "gas",
+      "bloating",
+      "stomach gas"
+    ],
+    "responses": [
+      "Gas and bloating occur due to digestive issues, food intolerance, or swallowing air.",
+      "Avoid carbonated drinks, eat slowly, and identify trigger foods.",
+      "Seek medical help if bloating is persistent or painful."
+    ]
+  },
+  "piles": {
+    "keywords": [
+      "piles",
+      "hemorrhoids"
+    ],
+    "responses": [
+      "Piles (hemorrhoids) are swollen veins in the rectal area, causing pain, itching, or bleeding during bowel movements.",
+      "Increase fiber intake, drink plenty of water, and avoid straining during stools.",
+      "Consult a doctor if bleeding or severe pain occurs."
+    ]
+  },
+  "anal_fissure": {
+    "keywords": [
+      "anal fissure",
+      "rectal tear"
+    ],
+    "responses": [
+      "Anal fissures are small tears in the anal lining, causing sharp pain during bowel movements.",
+      "Keep stools soft with fiber and adequate hydration.",
+      "Seek medical care if pain or bleeding persists."
+    ]
+  },
+  "burns_minor": {
+    "keywords": [
+      "minor burns",
+      "burn injury"
+    ],
+    "responses": [
+      "Minor burns are caused by heat, hot liquids, or mild chemicals, resulting in redness and pain.",
+      "Cool the burn with running water and keep the area clean.",
+      "See a doctor if burns blister or cover large areas."
+    ]
+  },
+  "cuts_wounds": {
+    "keywords": [
+      "cuts",
+      "wounds",
+      "injury"
+    ],
+    "responses": [
+      "Minor cuts and wounds occur due to injuries and may cause bleeding and pain.",
+      "Clean the wound, apply antiseptic, and keep it covered.",
+      "Seek medical help if the wound is deep or shows signs of infection."
+    ]
+  },
+  "insect_bite": {
+    "keywords": [
+      "insect bite",
+      "bug bite"
+    ],
+    "responses": [
+      "Insect bites can cause itching, redness, or swelling due to allergic reaction.",
+      "Apply cold compress and use anti-itch creams.",
+      "Consult a doctor if severe swelling or breathing difficulty occurs."
+    ]
+  },
+  "sunburn": {
+    "keywords": [
+      "sunburn",
+      "sun exposure"
+    ],
+    "responses": [
+      "Sunburn occurs due to prolonged sun exposure, causing red and painful skin.",
+      "Apply aloe vera gel, stay hydrated, and avoid sun exposure.",
+      "Seek medical advice if sunburn is severe or blistering."
+    ]
+  },
+  "motion_sickness": {
+    "keywords": [
+      "motion sickness",
+      "travel sickness"
+    ],
+    "responses": [
+      "Motion sickness causes nausea, dizziness, and vomiting during travel.",
+      "Sit facing forward, avoid heavy meals, and get fresh air.",
+      "Consult a doctor if symptoms are frequent or severe."
+    ]
+  },
+  "snoring": {
+    "keywords": [
+      "snoring",
+      "sleep noise"
+    ],
+    "responses": [
+      "Snoring occurs due to airway obstruction during sleep and may affect sleep quality.",
+      "Maintain healthy weight and avoid sleeping on the back.",
+      "Consult a doctor if snoring is loud or associated with breathing pauses."
+    ]
+  },
+  "sleep_apnea": {
+    "keywords": [
+      "sleep apnea",
+      "breathing pauses in sleep"
+    ],
+    "responses": [
+      "Sleep apnea is a sleep disorder involving repeated breathing interruptions during sleep.",
+      "Maintain healthy weight and avoid alcohol before sleep.",
+      "Seek medical evaluation for proper diagnosis and treatment."
+    ]
+  },
+  "depression": {
+    "keywords": [
+      "depression",
+      "low mood",
+      "sadness"
+    ],
+    "responses": [
+      "Depression is a mental health condition causing persistent sadness, loss of interest, and low energy.",
+      "Maintain routine, stay socially connected, and practice stress management.",
+      "Consult a mental health professional if symptoms persist."
+    ]
+  },
+  "memory_loss": {
+    "keywords": [
+      "memory loss",
+      "forgetfulness"
+    ],
+    "responses": [
+      "Memory loss involves difficulty remembering information and may be age-related or due to stress or illness.",
+      "Maintain mental activity, good sleep, and balanced nutrition.",
+      "Seek medical advice if memory loss worsens or affects daily life."
+    ]
+  },
+  "tremors": {
+    "keywords": [
+      "tremors",
+      "shaking hands"
+    ],
+    "responses": [
+      "Tremors are involuntary shaking movements that may occur due to stress, fatigue, or neurological conditions.",
+      "Reduce caffeine intake and manage stress.",
+      "Consult a doctor if tremors are persistent or worsening."
+    ]
+  }
+}
