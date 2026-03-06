@@ -48,7 +48,7 @@ df = pd.DataFrame({
 # =====================================================
 model = Pipeline([
     ("tfidf", TfidfVectorizer(
-        analyzer="word",          # 🔥 FIX 1
+        analyzer="word",          #  FIX 1
         ngram_range=(1, 2),
         stop_words="english"
     )),
@@ -133,7 +133,7 @@ def ml_chatbot(user_input):
         max_prob = float(np.max(probs))
         ml_intent = model.classes_[np.argmax(probs)]
 
-        if max_prob >= 0.10:   # 🔥 FIX 2 (Lower threshold)
+        if max_prob >= 0.10:   #  FIX 2 (Lower threshold)
             detected_conditions.setdefault(ml_intent, {
                 "kw_conf": 0.0,
                 "ml_conf": 0.0
